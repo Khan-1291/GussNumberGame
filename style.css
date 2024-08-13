@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+
+}
+#relod {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+
+
+}
+h1{
+    font-size:x-large ;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: dotted;
+    text-decoration-color: blue;
+}
+.contanier{
+    width: 90%;
+    height: 600px;
+    box-shadow: 3px 3px 3px .3px;
+    background-color: rgb(189, 141, 233);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.head {
+    margin-top: 00px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: dotted;
+    text-decoration-color: blue;
+    padding-top: 30px;
+}
+.contanier input {
+    margin-top: 20px;
+    width: 300px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.contanier button{
+    width: 120px;
+    background-color: red;
+    height: 48px;
+}
+#result{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(255, 255, 1);
+
+}
+#score{
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(0, 0, 0) ;
+    
+}
+#highScore{
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+    
+    
+}
+
+footer{
+    margin-top: 20px;
+}
+#useScoreButton{
+    margin-top: 30px;
+    font-weight: bold;
+
+    background-color: white;
+}
+#useScoreButton button{
+    background-color: white;
+    border-radius: 5px;
+
+}
+@media only screen and (max-width: 400px) {
+    .contanier {
+        height: max-content;
+    }
+    .contanier input {
+        margin-top: 10px;
+        width: max-content;
+        height: 45px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
